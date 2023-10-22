@@ -1,0 +1,160 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Front-End Developer Natasha Parry's Contact Information." />
+<meta name="keywords" content="Front-End Developer, Web Developer, Contact Info" />
+<meta name="author" content="Natasha Parry" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+    <title>HomePage about me🚀</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Natasha Parry</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              
+              <a href="About.html" title= "🧐More Info About Me"class="nav-link">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#myWorks" title="🎨My Works are Here!" class="nav-link">MY WORKS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="my-section" class="bg-dark text-light p-5 text-center text-sm-start">
+<div class="container">
+  <div class="d-sm-flex align-items-center justify-content-between">
+  <div>
+    <h1>Hi, I am a <span class="text-warning">Front-End Developer</h1>
+      <p class="lead my-5 fw-bold">
+          Turning visions into reality! 😍 Committed to delivering innovative web solutions that captivate and inspire!
+
+      </p>
+      <a href="Contacts.html" title= "📞Contact Info" button id="contact-button" type="button" class="btn btn-lg btn-warning shadow-lg p-3 mb-5">Contact Me</a>
+  </div>
+  
+  <img id="mail-image" class="img-fluid w-50 rounded float-end img-thumbnail d-none d-sm-block" src="images/Mail.png" alt=""/>
+</div>
+</section>
+<section id="mySection" class="bg-primary p-5">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+        <h2 class="h2 text-center text-warning mb-3 mb-md-0 pulse-heading">Request Callback</h2>
+        <form id="callbackForm">
+    
+     <form id="callbackForm">
+        <div class="form-group mt-2">
+            <label for="countryCode" id="countryCode" class="text-light">Country Code:</label>
+            <select class="form-control" id="countryCode" name="countryCode">
+                <option value="+1">USA (+1)</option>
+                <option value="+44">UK (+44)</option>
+                <option value="+49">Germany (+49)</option>
+        
+            </select>
+        </div>
+        <div class="form-group mb-3">
+            <label for="phoneNumber" class="text-light">Phone Number:</label>
+            <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number">
+        </div>
+        <button type="button" title= "☎️Submit you phone"id= "submitButton" class="btn btn-primary btn-warning shadow-lg p-3 mb-5" onclick="submitCallback()">Submit</button>
+        
+    </form>
+</div>
+</section>
+<section id="myWorks" class="p-5 text-light" style="background-color: #606470;">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/Laptop.png" alt="Interior Website" class="img-fluid rounded mt-3 border border-2 d-none d-lg-inline" />
+    </div>
+    <div class="col-md-6">
+      <h2 class="mt-3 text-center">Interior Website</h2>
+      <p class="text-center fs-6">
+        
+I built an interior design website by planning, researching, and creating visually appealing content.
+ It's designed to be user-friendly, responsive, and optimized for search engines. 
+ After thorough testing, I launched it for everyone to enjoy.
+      </p>
+      <div class="mt-5">
+        <a href="#" title= "Launch this app 👆" class="btn btn-light text-dark text-center fw-bold p-3 border border-black d-flex align-items-center justify-content-center">LAUNCH</a>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <h2 class="mt-3 text-center">PicWonders Website</h2>
+      <p class="text-center fs-6">
+        PicWonders" is your go-to photography website.
+         It's a hub of stunning galleries, helpful tutorials, and a vibrant community of photographers. 
+         Whether you're a pro or just love photography, 
+         PicWonders is your source of inspiration and knowledge. 
+         Join us to explore the wonder of photography!
+      </p>
+      <div class="mt-5">
+        <a href="#" title= "Launch this app 👆" class="btn btn-light text-dark text-center fw-bold p-3 border border-black d-flex align-items-center justify-content-center">LAUNCH</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="images/Modern.png" class="img-fluid rounded mt-3 border border-2 d-none d-lg-inline" />
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <img src="images/recipe.png" class="img-fluid rounded mt-3 border border-2 d-none d-lg-inline" />
+    </div>
+    <div class="col-md-6">
+      <h2 class="mt-3 text-center">DesignSavvy Website</h2>
+      <p class ="text-center fs-6">
+        My mission is to spark your creativity, connect you with talented designers, 
+        and keep you informed about the ever-evolving design landscape. 
+        Join our community of like-minded individuals, share your work,
+         and be part of the vibrant world of DesignSaavy.
+      </p>
+      <div class="mt-5">
+        <a href="#" title= "Launch this app 👆" class="btn btn-light text-dark text-center fw-bold p-3 border border-black d-flex align-items-center justify-content-center">LAUNCH</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</section>
+
+
+
+
+
+<footer class="bg-dark text-white p-3 text-center">
+  <div class="container">
+      <a href="mailto:your.email@example.com" title = "📩Text me"style="color: white;">nata1031986@example.com</a>
+  </div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>

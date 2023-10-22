@@ -1,0 +1,115 @@
+@media (max-width: 768px) {
+  #my-section {
+    background-color: #225763 !important; /* New background color for small screens */
+  }
+}
+
+#contact-button {
+  background-color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  color: #000 !important;
+  transition: color 0.2s !important, background-color 0.2s !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contact-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* Change the background color when the screen width is 768px or less */
+  #mySection {
+    background-color: #060608 !important;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-heading {
+  animation: pulse 2s infinite; /* Adjust the duration or other values as needed */
+}
+
+#submitButton {
+  background-color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  color: #000 !important;
+  transition: color 0.2s !important, background-color 0.2s !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#submitButton:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.featured {
+  background: var(--featured-artists-background-color);
+  padding-top: 60px;
+}
+
+img.featured-img {
+  border-radius: 50%;
+}
+
+#featured-details {
+  max-width: 100%;
+  padding-top: 2px;
+  opacity: 0;
+  margin-right: 8%;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
+  z-index: 2;
+  text-align: center;
+}
+
+#featured-image {
+  position: relative;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  line-height: 1.2;
+  z-index: 2;
+  transition: opacity 250ms ease-in-out;
+}
+
+#featured-image:hover #featured-details,
+#featured-image:focus #featured-image {
+  opacity: 1;
+  text-shadow: 0 0 2em white;
+}
+
+#featured-image:hover,
+#featured-image:focus {
+  opacity: 0.8;
+}
+
+#featured-details span {
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 2rem;
+}
+:root {
+  --featured-artists-background-color: #606470;
+}
+
+#Info {
+  background-color: #7c52e9;
+}
